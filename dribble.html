@@ -1,0 +1,1737 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="dribble.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Dribble</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-container">
+        <div class="container-fluid">
+            <a class="navbar-brand nav-brand" href="#">dribbble</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-headers" href="https://dribbble.com/jobs" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Inspiration
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">
+                                <div class="container">
+                                    <div class="row d-flex">
+                                        <div class="col-md-8 col-sm-8 box-sizing">
+                                            <div class="d-flex">
+                                                <div><svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                                        viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                                        <path
+                                                            d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                            fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                            stroke-width="1.5"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <div class="heading-size mx-3">Explore design work</div>
+                                                    <p class="mx-3">Trending designs to inspire you</p>
+
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div><svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                                        viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                                        <path
+                                                            d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                            fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                            stroke-width="1.5"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <div class="heading-size mx-3">New & Noteworthy</div>
+                                                    <p class="mx-3">Up-and-coming designers</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                                        viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                                        <path
+                                                            d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                            fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                            stroke-width="1.5"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <div class="heading-size mx-3">Playoffs</div>
+                                                    <p class="mx-3">Work designers are riffing on</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                                        viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                                        <path
+                                                            d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                            fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                            stroke-width="1.5"></path>
+                                                    </svg>
+                                                </div>
+
+                                                <div>
+                                                    <div class="heading-size mx-3">Blogs</div>
+                                                    <p class="mx-3">Interviews, tutorials, and more</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                                        viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                                        <path
+                                                            d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                            fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                            stroke-width="1.5"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <div class="heading-size mx-3">Weekly Warm-up</div>
+                                                    <p class="mx-3">Prompt to flex your design skills</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4 box-colour">
+                                            <div>
+                                                <div class="heading-size box-sizing">Browse Categories</div>
+                                                <p class="footer-content">Animation</p>
+                                                <p>Branding</p>
+                                                <p>Illustration</p>
+                                                <p>Mobile</p>
+                                                <p>Print</p>
+                                                <p>Product Design</p>
+                                                <p>Typography</p>
+                                                <p>Web Design</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-headers" href="https://dribbble.com/jobs" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Find Work
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex justify-content">
+                                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+                                        <div class="heading-size mx-3">Job Board</div>
+                                        <p class="mx-3">Find your dream design job</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex">
+                                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+                                        <div class="heading-size mx-3">Freelance Projects <span
+                                                class="badge badge-secondary nav-badgeset">PRO+</span></div>
+                                        <p class="mx-3">An exclusive list for contract work</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex">
+                                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+                                        <div class="heading-size mx-3">Want freelance design projects?</div>
+                                        <p class="mx-3">Get new leads in your inbox everyday</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex">
+                                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+
+                                        <div>
+                                            <div class="heading-size mx-5">Personalize your profile with video</div>
+                                            <p class="mx-5">Introduce yourself to new clients</p>
+                                        </div>
+                                    </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-headers" href="https://dribbble.com/jobs" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Learn Design
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex">
+                                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+                                        <div class="heading-size mx-3">Certified Product Design Course</div>
+                                        <p class="mx-3">Learn product design in 16 weeks</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex">
+                                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+                                        <div class="heading-size mx-3">Introduction to UI Design</div>
+                                        <p class="mx-3">Learn UI Design Basics and Figma Fundamentals...</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex">
+                                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+                                        <div class="heading-size mx-3">Design Systems Course</div>
+                                        <p class="mx-3">Scale Design Systems in 8 weeks...</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex">
+                                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+                                        <div class="heading-size mx-3">Design Career Prep Course</div>
+                                        <p class="mx-3">Land your dream job! You'll have a career support specialist to
+                                            review your
+                                            portfolio...</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex">
+                                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+                                        <div class="heading-size mx-3">Browse our courses & workshops</div>
+                                        <p class="mx-3">Level up your skills with our interactive courses and
+                                            workshops...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-headers" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Go Pro
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex">
+                                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+                                        <div class="heading-size mx-3">For Designers</div>
+                                        <p class="mx-3">Portfolio creation made easy</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex">
+                                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+                                        <div class="heading-size mx-3">For Freelancers</div>
+                                        <p class="mx-3">Fresh leads in your inbox everyday</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex">
+                                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+                                        <div class="heading-size mx-3">For Teams</div>
+                                        <p class="mx-3">Build your team's pipeline or profile</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-headers" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Hire Designers
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex">
+                                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+                                        <div class="heading-size mx-3">Designer Search</div>
+                                        <p class="mx-3">Find, contact, and hire designers</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex">
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+                                        <div class="heading-size mx-3">List my Job Opening</div>
+                                        <p class="mx-3">The #1 job board for creatives</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="https://dribbble.com/jobs">
+                                <div class="d-flex">
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="25" height="40"
+                                            viewBox="0 0 20 20" fill="none" class="site-nav-dropdown-icon">
+                                            <path
+                                                d="M0.75 2.5C0.75 1.5335 1.5335 0.75 2.5 0.75H8.5C9.4665 0.75 10.25 1.5335 10.25 2.5V8.5C10.25 9.4665 9.4665 10.25 8.5 10.25H2.5C1.5335 10.25 0.75 9.4665 0.75 8.5V2.5ZM13.75 2.5C13.75 1.5335 14.5335 0.75 15.5 0.75H17.5C18.4665 0.75 19.25 1.5335 19.25 2.5V8.5C19.25 9.4665 18.4665 10.25 17.5 10.25H15.5C14.5335 10.25 13.75 9.4665 13.75 8.5V2.5ZM9.75 15.5C9.75 14.5335 10.5335 13.75 11.5 13.75H17.5C18.4665 13.75 19.25 14.5335 19.25 15.5V17.5C19.25 18.4665 18.4665 19.25 17.5 19.25H11.5C10.5335 19.25 9.75 18.4665 9.75 17.5V15.5ZM0.75 15.5C0.75 14.5335 1.5335 13.75 2.5 13.75H4.5C5.4665 13.75 6.25 14.5335 6.25 15.5V17.5C6.25 18.4665 5.4665 19.25 4.5 19.25H2.5C1.5335 19.25 0.75 18.4665 0.75 17.5V15.5Z"
+                                                fill="currentColor" fill-opacity="0.2" stroke="currentColor"
+                                                stroke-width="1.5"></path>
+                                        </svg></div>
+                                    <div>
+                                        <div class="heading-size mx-3">Post a Freelance Project</div>
+                                        <p class="mx-3">Board for freelance & contract work</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <i class="fa fa-search nav-search-button" aria-hidden="true"></i>
+                    <a class="nav-searchbar" href="https://dribbble.com/session/new">Sign in</a>
+
+                    <button class="btn rounded submitbar" type="submit">Sign
+                        up</button>
+
+                </div>
+
+
+
+            </div>
+    </nav>
+    <div class="header">
+        <div class="video-container" style="z-index: 1">
+            <video class="hero-media-asset is-visible" autoplay="" muted="" loop="" playsinline="" data-hero-video=""
+                data-src-lg="https://cdn.dribbble.com/uploads/39417/original/49dbf46eae15d227fc95a69cee31251e.mp4?1657824906"
+                data-src-sm="https://cdn.dribbble.com/uploads/39418/original/0cc960a3bf612d0badc4f6165eb36f7b.mp4?1657824915">
+                <source
+                    src="https://cdn.dribbble.com/uploads/39417/original/49dbf46eae15d227fc95a69cee31251e.mp4?1657824906"
+                    type="video/mp4">
+            </video>
+
+        </div>
+
+        <div class="header-content-container">
+            <div class="button-display mt-5 w-50">
+                <button type="button" class="btn btn-secondary btn-sm buttons">Discover</button>
+                <button type="button" class="btn btn-secondary btn-sm buttons">Animation</button>
+                <button type="button" class="btn btn-secondary btn-sm buttons">Branding</button>
+                <button type="button" class="btn btn-secondary btn-sm buttons">Illustration</button>
+                <button type="button" class="btn btn-secondary btn-sm buttons">Mobile</button>
+                <button type="button" class="btn btn-secondary btn-sm buttons">Print</button>
+                <button type="button" class="btn btn-secondary btn-sm buttons">Product Design</button>
+                <button type="button" class="btn btn-secondary btn-sm buttons">Typography</button>
+                <button type="button" class="btn btn-secondary btn-sm buttons">Web Design</button>
+            </div>
+            <div class="heading-align main">
+                <h1 class="fw-bolder display-4">Explore the world's leading <br> design portfolios</h1>
+            </div>
+            <div class="main">
+                <p class="display-6">Millions of designers and agencies around the world showcase their
+                    portfolio work<br>on Dribbble - the home to the world's best design and creative professionals.
+                </p>
+            </div>
+            <div>
+
+                <div>
+                    <i class="fa fa-search searchbutton" aria-hidden="true"></i>
+                    <form action="">
+                        <div class="input-group searchbar">
+                            <input type="text" class="main-search pl-5" placeholder="Search..." name="search">
+
+                        </div>
+                    </form>
+
+                </div>
+
+
+
+            </div>
+            <div class="buttons-landing d-flex">
+                <p class="mt-3 trending-searches">Trending searches</p>
+                <button type="button"
+                    class="btn btn-outline button-bg btn-sm rounded-pill trending-searches buttons">landing
+                    page</button>
+                <button type="button"
+                    class="btn btn-outline button-bg brounded-pill btn-sm trending-searches buttons">ios</button>
+                <button type="button"
+                    class="btn btn-outline button-bg rounded-pill btn-sm trending-searches buttons">food</button>
+                <button type="button"
+                    class="btn btn-outline button-bg rounded-pill btn-sm trending-searches buttons">landingpage</button>
+                <button type="button"
+                    class="btn btn-outline button-bg rounded-pill btn-sm trending-searches buttons">uxdesign</button>
+                <button type="button"
+                    class="btn btn-outline button-bg rounded-pill btn-sm trending-searches buttons">app
+                    design</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="dropdown">
+        <button class="btn btn-outline-secondary dropdown-toggle dropdowndesign" type="button" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Popular
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Popular</a>
+            <a class="dropdown-item" href="#">New & Noteworthy</a>
+            <hr class="dropdown-divider">
+            <a class="dropdown-item" href="#">Market Place</a>
+        </div>
+    </div>
+
+    
+
+
+    
+    <button class="btn btn-outline-secondary rounded-4 rounded-pill filter-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <span><i class="fa-solid fa-bars"></i></span>
+        Filter
+      </button>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+         
+            <div class="items">
+                <label><b>Tags</b></label><br>
+                <div class="input-group">
+                    <span class="input-group-text" id="Search"><i class="fa fa-search" aria-hidden="true"></i></span>
+                    <input type="search" class="form-control" placeholder="Search" aria-describedby="textlogo"
+                        aria-label="Search">
+                </div>
+            </div>
+            <div class="items">
+                <label><b>Color</b></label><br>
+                <div class="input-group">
+                    <span class="input-group-text" id="Search"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="21" viewBox="0 0 20 21" fill="none" role="img" class="icon ">
+                            <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
+                                height="21">
+                                <circle cx="10" cy="10.5" r="10" fill="#C4C4C4"></circle>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <rect x="10" y="0.5" width="10" height="20" fill="#3A8BBB"></rect>
+                                <path d="M20 4.5L10 -2.5V10.5L20 4.5Z" fill="#00B6E3"></path>
+                                <path d="M20 16.5L10 24.5V10.5L20 16.5Z" fill="#C142A0"></path>
+                                <path d="M0 0.5H10V10.5L0 16.5V0.5Z" fill="#FCC870"></path>
+                                <path d="M-7 0.5H10V10.5L-7 0.5Z" fill="#EF875B"></path>
+                                <path d="M0 16.5L10 24.5V10.5L0 16.5Z" fill="#FF5555"></path>
+                            </g>
+                            <circle cx="10" cy="10.5" r="3" fill="#F5F6F7"></circle>
+                        </svg></span>
+                    <input type="search" class="form-control" placeholder="Enter hex or select"
+                        aria-describedby="textlogo" aria-label="Search">
+                </div>
+            </div>
+            <div class="items">
+                <label><b>Timeframe</b></label><br>
+                <select class="form-control" list="timeframes" id="timeframe">
+                    <option value="Now" class="bg-danger" selected>Now</option>
+                    <option value="This past week" class="bg-danger">This past week</option>
+                    <option value="This past month" class="bg-danger">This past month</option>
+                    <option value="This past year" class="bg-danger">This past year</option>
+                </select>
+            </div>
+            <div class="items">
+                <label><b>Downloads</b></label><br>
+                <select class="form-control" list="timeframes" id="timeframe">
+                    <option value="All shots" class="bg-danger" selected>All shots</option>
+                    <option value="Adobe Illustrator" class="bg-danger">Adobe Illustrator</option>
+                    <option value="Adobe photoshop" class="bg-danger">Adobe photoshop</option>
+                    <option value="Adobe XD" class="bg-danger">Adobe XD</option>
+                    <option value="FIGMA" class="bg-danger">FIGMA</option>
+                    <option value="Invision studio" class="bg-danger">Invision studio</option>
+                    <option value="Sketch" class="bg-danger">Sketch</option>
+
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+
+
+   
+
+    <div class="container cardstyle">
+        <div class="row gy-1">
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Onecloud.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="lazyloaded rounded-circle" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41 </span>
+
+                            <span><i class="fa fa-eye"></i>5.7k </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Booking Homestay.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Shapez</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="lazyloaded rounded-circle" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41 </span>
+
+                            <span><i class="fa fa-eye"></i>5.7k </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/graphicmall.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Start your free trial</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Foo foo.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row gy-1">
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Hlink.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">H infinity</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Sacred stone.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Shapez</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/graphicmall.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Collaboration</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Foo foo.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row gy-1">
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Wheelie.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/dentalclinic.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Dental Clinic website</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Wheelie.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Start your free trial</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Foo foo.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row gy-3 mb-2">
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Still sleepy.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline w-50">
+                        <div class="d-flex align-items-baseline">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/proemion branding.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Proemion Branding</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border">
+                    <img class="card-img-top" src="images/Sacred stone.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Start your free trial</p>
+                    </div>
+
+
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Foo foo.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row gy-1">
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Amadeus.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Foo foo.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Shapez</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Foodoo.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Start your free trial</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Foo foo.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.submitbar3dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row gy-1">
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Booking Homestay.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Screen Recording.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Shapez</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/ollysweat.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Start your free trial</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Foo foo.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+
+
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row gy-1">
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Ravens.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Ravens</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Ravens</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/commando bull.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Shapez</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Hlink.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Start your free trial</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Foo foo.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row gy-1">
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Onecloud.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">OneCloud</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Onecloud</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41 </span>
+
+                            <span><i class="fa fa-eye"></i>5.7k </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Booking Homestay.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Homestay</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41 </span>
+
+                            <span><i class="fa fa-eye"></i>5.7k </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/graphicmall.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Start your free trial</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Foo foo.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row gy-1">
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/The DKNG Show.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Feebetter.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Shapez</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>"
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Denario.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Denario: visual identity
+                        </p>
+                    </div>
+
+                    <div class="card-botttom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Foo foo.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row gy-1">
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Onecloud.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">OneCloud - Landing page design</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Amadeus.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Amadeus - AI Assistant Interaction</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Feebetter.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Start your free trial</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Foo foo.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Wells Coffee Co</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row gy-1">
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/commando bull.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">commando</p>
+                    </div>
+
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Commando</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/Foo foo.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">Foo foo</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Foo foo</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/4Fwears.webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">4Fwears</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">4Fwears</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card card-border w-100">
+                    <img class="card-img-top" src="images/[B][P].webp" alt="Card image cap">
+                    <div class="card-body card-img-overlay">
+                        <p class="card-text design-on-card">[B] [P]</p>
+                    </div>
+                    <div class="card-bottom-structure d-flex justify-content-between align-items-baseline mt-2">
+                        <div class="d-flex align-items-baseline w-50">
+                            <img class="rounded-circle lazyloaded" alt="Mateusz Turbiński" width="24" height="24"
+                                data-src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920"
+                                src="https://cdn.dribbble.com/users/31812/avatars/mini/a389a80bf75f99d4cd1dd8a78c0236ea.jpeg?1660664920" />
+                            <p class="mx-1">Marina</p>
+                            <span class="badge badge-secondary mx-1"> PRO</span>
+                        </div>
+                        <div class="d-flex w-20">
+                            <span><i class="fa fa-heart"></i>41</span>
+
+                            <span><i class="fa fa-eye"></i>5.7k</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="texting">
+            <form class="form-inline">
+                <button class="btn rounded submitbox" type="submit">Sign up to continue</button>
+                <a class="form-control signinbutton" href="#">or sign in</a>
+                <a class="scroll-button" href="#">
+                    <img width="50" height="50" class="lazyloading-hidden lazyloaded"
+                        data-src="https://cdn.dribbble.com/assets/icon-backtotop-d9d209c36a169637612a8fe4a1f15ab9e5763a20dbe5b7706df4e23aadf6052e.png"
+                        alt="Back to top"
+                        src="https://cdn.dribbble.com/assets/icon-backtotop-d9d209c36a169637612a8fe4a1f15ab9e5763a20dbe5b7706df4e23aadf6052e.png">
+                </a>
+            </form>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light">
+        <div class="footer container bg-light footer-align">
+            <div class="row">
+                <div class="col-lg-3 col-xs-12">
+                    <a class="navbar-brand logocolour" href="#">dribbble</a>
+                    <p class="content-gap">Dribble is the world's leading <br> community for creatives to <br> share,
+                        grow, and get hired.</p>
+                    <div class="logo d-sm-flex justify-content-between">
+                        <img src="images/dribblelogo.png" alt="dribble">
+
+                        <img src="images/twitterlogo.png" alt="dribble">
+                        <img src="images/facebooklogo.png" alt="dribble">
+                        <img src="images/instagramlogo.png" alt="dribble">
+                        <img src="images/pinterestlogo.png" alt="dribble">
+                    </div>
+                </div>
+                <div class="col-sm-2 col-lg-2 mt-3">
+                    <div class="heading-size">For Designers</div>
+                    <p class="footer-content">Go Pro!</p>
+                    <p> Explore design work</p>
+                    <p>Design blog</p>
+                    <p>Overtime podcasts</p>
+                    <p>Playoffs</p>
+                    <p>Weekly warm-up</p>
+                    <p>Refer a Friend</p>
+                    <p>Code of conduct</p>
+                </div>
+                <div class="col-sm-2 col-lg-2 mt-3">
+                    <div class="heading-size">Hire Designers</div>
+                    <p class="footer-content">Post a job opening</p>
+                    <p>Post a freelance project</p>
+                    <p>Search for designers</p>
+                    <div class="heading-size">Brands</div>
+                    <p class="footer-content">Advertise with us</p>
+                </div>
+                <div class="col-sm-2 col-lg-1 mt-3">
+                    <div class="heading-size">Company</div>
+                    <p class="footer-content">About</p>
+                    <p>Careers</p>
+                    <p>Support</p>
+                    <p>Media kit</p>
+                    <p>Testimonials</p>
+                    <p>API</p>
+                    <p>Terms of service
+
+                </div>
+                <div class="col-sm-2 col-lg-2 mt-3">
+                    <div class="heading-size">Directories</div>
+                    <p class="footer-content">Design jobs</p>
+                    <p>Designers for hire</p>
+                    <p>Freelance designers for hire</p>
+                    <p>Tags</p>
+                    <p>Places</p>
+                    <div class="heading-size">Design assets</div>
+                    <p class="footer-content">Dribble Marketplace</p>
+                    <p>Creative Market</p>
+                    <p>Fontspring</p>
+                    <p>Font Squirrel</p>
+                </div>
+                <div class="col-sm-2 col-lg-2 mt-3">
+                    <div class="heading-size">Design Resources</div>
+                    <p class="footer-content">Freelancing</p>
+                    <p>Design Hiring</p>
+                    <p>Design Portfolio</p>
+                    <p>Design Education</p>
+                    <p>Creative Process</p>
+                    <p>Design industry trends</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="mt-5">
+
+    <div class="d-flex">
+        <div class="justify-content-start mt-5 mx-3">
+            <p> 2023 Dribbble. All rights reserved.</p>
+        </div>
+        <div class="footer-last d-flex mt-5">
+            <p><strong>20,552,533</strong> shots dribbbled</p>
+            <img class="dribbble-ball ls-is-cached lazyloaded ml-1"
+                data-src="https://cdn.dribbble.com/assets/dribbble-ball-icon-4e54c54abecf8efe027abe6f8bc7794553b8abef3bdb49cd15797067cf80ca53.svg"
+                width="24px" height="24px" alt="Dribbble ball icon"
+                src="https://cdn.dribbble.com/assets/dribbble-ball-icon-4e54c54abecf8efe027abe6f8bc7794553b8abef3bdb49cd15797067cf80ca53.svg">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
