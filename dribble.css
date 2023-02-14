@@ -8,7 +8,7 @@
     }
   }
 body {
-    width: 1300px;
+    width: 1116px;
     height: 346px;
     font-weight: 400;
 }
@@ -16,10 +16,14 @@ body {
   
 
 .buttons {
-    margin-left: 9px;
-    margin-right: 22px;
+    margin-left: 0px;
+    margin-right: 8px;
     border-radius: 3rem;
-  }
+    font-size: 1.25rem;
+    padding: 1.00rem 1.25rem;
+    background: rgba(0,0,0,0.5);
+}
+  
 
 .submitbar {
     background: #EA4C89;
@@ -48,13 +52,13 @@ body {
 }
 .searchbar {
   position: relative;
-  margin-left: 50px;
+  margin-left: 90px;
 
 }
 .searchbutton {
     position: absolute;
-    left: 225px;
-    top: 449px;
+    left: 265px;
+    top: 558px;
     z-index: 20;
     
 }
@@ -105,7 +109,7 @@ body {
     margin-top: -64px;
 }
 .dropdowndesign {
-    margin-top: 550px;
+    margin-top: 913px;
     margin-left: 70px;
     background-color: white;
     box-shadow: #EA4C89;
@@ -117,12 +121,7 @@ body {
     box-shadow: #EA4C89;
    
 }
-/* .dropdowndesignfilters {
-    margin-top: -75px;
-    margin-left: 1046px;
-    border: 1px solid grey;
-    padding: 20px;
-} */
+
 .design-on-card {
     padding-left: -8px;
     color: white;
@@ -149,8 +148,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-radius: 10px;
-    margin-left: 120px;
+    border-radius: 2rem;
+    margin-left: 26px;
+    font-size: 0.05rem;
+    padding: 0.05rem 0.05rem;
 }
 .buttons:hover {
     background-color: white;
@@ -259,8 +260,8 @@ body {
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: bolder;
-    line-height: 20px;
-    margin-top: -2px;
+    line-height: 22px;
+    margin-top: 3px;
     color: #0d0c22;
     background-image: hover;
 }
@@ -271,21 +272,23 @@ body {
 .box-sizing {
     width: 480px;
     margin-top: 20px;
+
 }
 .box-colour {
-    background-color: rgb(230, 227, 227);
     margin: -12px 0px;
+    padding: 24px 23px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: #f8f8f8;
 }
-.hero-media-asset {
-    width: 100vw;
-}
+
 
 .content-gap {
    padding-top: 15px;
 }
 
 .heading-align {
-    text-align: center;
+
     color: white;
     font-size: 1px;
     margin: 272px 0px -85px 90px;
@@ -324,15 +327,16 @@ body {
 }
 
 .video-container {
-    width: 100vw;
-    max-height: 500px;
+    width: 100%;
+    max-height: 50vh;
+    object-fit: cover;
 }
 .main {
     margin-top: 90px;
     text-align: center;
     color: white;
     font-size: x-large;
-    margin-left: 152px;
+    margin-left: 332px;
 }
 .main-display {
     z-index: 1;
