@@ -1,0 +1,56 @@
+.design-on-card{
+    opacity: 0;
+    transition: opacity 300ms ease;
+}
+.design-on-card:hover{
+    opacity: 0.7;
+    background-color: black;
+    /* transition: opacity 300ms ease; */
+}
+#img-text{
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+}
+.card-body{
+    font-size: 11px;
+    justify-content: end;
+}
+#card-body{
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    /* justify-content: end; */
+}
+ .button:hover {    
+  background-color: rgb(252, 117, 139);
+  color: white;
+}
+#card-icon:hover{
+    background-color:rgb(255, 132, 152);
+}
+.submit-btn{
+    border: none;
+    background-color: #EA4C89;
+    color: white;
+    border-radius: 5px;
+}
+.submit-btn:hover{
+    opacity: 0.7;
+}
+.signup-text{
+    text-decoration: none;
+    color: #EA4C89;
+}
+.signup-text:hover{
+    color: #982a54;
+}
+.bck-to-top {
+    position: sticky;
+    bottom: 0;
+    color: rgb(170, 166, 166);
+    opacity: 0.5;
+    right: 0;
+  }
